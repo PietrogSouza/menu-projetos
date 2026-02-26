@@ -1,0 +1,17 @@
+{
+  "name": "menu-projetos",
+  "version": "1.0.0",
+  "description": "Projeto que irá unificar todos os apps desenvolvidos, para facilitar a consulta do código.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "projeto",
+    "organização",
+    "atenção",
+    "comentários"
+  ],
+  "author": "Pietro Souza",
+  "license": "ISC"
+}

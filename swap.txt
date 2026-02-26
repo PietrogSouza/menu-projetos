@@ -1,0 +1,12 @@
+ SÍNTAX EMMET
+
+. --> Criar uma classe
+# --> Criar um ID
+$ --> Dados variáveis
+> --> Criar um filho (elemento)
+{} --> Escrever no elemento
+[] --> Incluir atributos no elemento
++ --> Criar outro elemento filho no mesmo nível
+* --> Criar vários elementos
+() --> Envelopar os comandos do EMMET
+^ --> Subir de nível
