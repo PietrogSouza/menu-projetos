@@ -10,3 +10,12 @@ $ --> Dados variáveis
 * --> Criar vários elementos
 () --> Envelopar os comandos do EMMET
 ^ --> Subir de nível
+
+
+Arrow Function
+const uva = () => 'Sou uma fruta';
+
+Function literal
+const uva(){
+    return 'Sou uma fruta'
+}
