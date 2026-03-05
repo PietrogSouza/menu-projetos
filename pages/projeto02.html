@@ -19,6 +19,73 @@
 
 </head>
 <body>
-    <h1>Projeto 02</h1>
+    <main class="container">
+        <header class="header">
+          <span class="material-symbols-outlined logo-icon">shopping_cart</span>
+          <h1>ShopSmart<span>Pro</span></h1>
+        </header>
+  
+        <section class="card">
+          <div class="inputs">
+            <div class="input-group">
+              <label>Valor 01</label>
+              <input
+                type="number"
+                id="valor01"
+                step="0.01"
+                placeholder="Ex: 199.90"
+              />
+            </div>
+  
+            <div class="input-group">
+              <label>Valor 02</label>
+              <input
+                type="number"
+                id="valor02"
+                step="0.01"
+                placeholder="Ex: 10"
+              />
+            </div>
+          </div>
+  
+          <div class="buttons">
+            <button onclick="calcularTotal()">
+              <span class="material-symbols-outlined">TOTAL</span>
+              
+            </button>
+  
+            <button onclick="desconto()">
+              <span class="material-symbols-outlined">DESCONTO</span>
+              
+            </button>
+  
+            <button onclick="juros()">
+              <span class="material-symbols-outlined">JUROS</span>
+              
+            </button>
+  
+            <button onclick="comissao()">
+              <span class="material-symbols-outlined">COMISSÃO</span>
+              
+            </button>
+  
+            <button onclick="lucro()">
+              <span class="material-symbols-outlined">LUCRO</span>
+              
+            </button>
+  
+            <button class="btn-clear" onclick="limpar()">
+              <span class="material-symbols-outlined">LIMPAR</span>
+              
+            </button>
+          </div>
+        </section>
+  
+        <section class="resultado" id="resultado">
+          <!-- Código injetado por JavaScript -->
+           <script src="../js/shop-smart-js/app.js"></script>
+        </section>
+      </main>
+  
 </body>
 </html>
