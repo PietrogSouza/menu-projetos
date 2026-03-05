@@ -59,4 +59,13 @@ button:hover{
     transform: translateY(-2px);
     box-shadow: 0 10px 15px -3px rgb(0, 0, 0 / 0.1);
 }
+
+.btn-navegacao{
+    background-color: rgb(247, 247, 2);
+    color: black;
+}
+
+.btn-navegacao:hover{
+    background-color: rgb(228, 224, 3);
+}
     
